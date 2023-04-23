@@ -17,11 +17,11 @@ function Navbar() {
                 <img className={styles.logo} src={logo} alt='logo' />
                 <nav>
                     <ul className={styles.nav_links}>
-                        <li><NavLink to={'/blog'}>Home</NavLink></li>
-                        <li><NavLink to={'/blog'}>Product</NavLink></li>
-                        <li><NavLink to={'/blog'}>About Us</NavLink></li>
-                        <li><NavLink to={'/blog'}>Support</NavLink></li>
-                        <li><NavLink to={'/blog'}>Blog</NavLink> </li>
+                        <li><NavLink to={'/'}>Home</NavLink></li>
+                        <li><NavLink to={'/'}>Product</NavLink></li>
+                        <li><NavLink to={'/'}>About Us</NavLink></li>
+                        <li><NavLink to={'/'}>Support</NavLink></li>
+                        <li><NavLink to={'/'}>Blog</NavLink> </li>
                     </ul>
                 </nav>
                 <a className={styles.cta} href='/'><button>Buy now</button></a>
