@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li,a,button{
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+    height: 73px;
+   background-color: rgba(255, 255, 255, 0.2);
+}
+.logo{
+    cursor: pointer;
+    
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:#0088a9
+}
+button{
+    padding: 9px 25px;
+    background-color: #00A150;
+    border: none;
+    border-radius:50px;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #00C170;
+}
+.heading_tag{
+    color: white;
+    font-size: 60px;
+    margin-top: 243px;
+    margin-left: 170px;
+}
+.subheading_tag{
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.container1{
+    background: url('./assets/agriculture.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 730px;
+  }
+  .icons{
+    display: none;
+  }
+  .icons_x{
+    display: none;
+  }
+@media(max-width:428px){
+  .heading_tag{
+    display: none;
+  } 
+  .subheading_tag{
+    display: none;
+  } 
+  .container1{
+    height: 72px;
+    width: 1352px;
+    background: none;
+    background-color: rgba(0, 193, 112, 1);
+    position: relative;
+    transition: 0.5s height ease-in-out;
+    justify-content: space-between;
+  }
+  .nav_links{
+    display: none;
+  }
+  .cta{
+    display: none;
+  }
+  .icons{
+    display: block;
+  }
+  .icons_x{
+    display: block;
+  }
+  .toggle_icon{
+    color: whitesmoke;
+  }
+ 
+  
+}
